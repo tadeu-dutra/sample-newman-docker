@@ -11,7 +11,7 @@ This project is intended to showcase how to run Postman collection scripts on Do
 | Get Posts     | GET    | `https://jsonplaceholder.typicode.com/posts` | Retrieves a list of posts.   |
 
 
-## Getting Started with Docker and Newman
+
 
 To run the Postman collection using Docker and Newman, ensure you have Docker installed on your system. You can execute the following commands to get started:
 
