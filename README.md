@@ -18,7 +18,7 @@ To run the Postman collection using Docker and Newman, ensure you have Docker in
 
 ### Clone the Repository
 
-bash```
+```bash
 git clone https://github.com/tadeu-dutra/sample-newman-docker
 cd sample-newman-docker
 ```
@@ -26,7 +26,7 @@ cd sample-newman-docker
 
 ### Build and run the Docker container
 
-bash```
+```bash
 docker build -t postman-newman .
 docker run postman-newman
 ```
