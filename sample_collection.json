@@ -20,6 +20,19 @@
             "response": [],
             "event": [
                 {
+                    "listen": "prerequest",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "// Log the current timestamp",
+                            "console.log('Current Timestamp:', new Date().toISOString());",
+                            "",
+                            "// Set a global variable for this request",
+                            "pm.globals.set('requestTimestamp', new Date().toISOString());"
+                        ]
+                    }
+                },
+                {
                     "listen": "test",
                     "script": {
                         "type": "text/javascript",
@@ -50,6 +63,19 @@
             },
             "response": [],
             "event": [
+                {
+                    "listen": "prerequest",
+                    "script": {
+                        "type": "text/javascript",
+                        "exec": [
+                            "// Log the current timestamp",
+                            "console.log('Current Timestamp:', new Date().toISOString());",
+                            "",
+                            "// Set a global variable for this request",
+                            "pm.globals.set('requestTimestamp', new Date().toISOString());"
+                        ]
+                    }
+                },
                 {
                     "listen": "test",
                     "script": {
