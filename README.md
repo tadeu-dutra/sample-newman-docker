@@ -1,4 +1,4 @@
-# sample-newman-docker
+# sample-postman-newman
 
 This project is intended to showcase how to run Postman collection scripts on Docker using Newman. In order to simplify things, the API we are going to run is already built and usually used for testing purposes. For more detailed information about the API responses, please refer to the [official JSONPlaceholder documentation](https://jsonplaceholder.typicode.com/).
 
@@ -19,15 +19,15 @@ To run the Postman collection using Docker and Newman, ensure you have Docker in
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/tadeu-dutra/sample-newman-docker
-cd sample-newman-docker
+git clone https://github.com/tadeu-dutra/sample-postman-newman
+cd sample-postman-newman
 ```
 
 
 ### Build and run the Docker container
 
 ```bash
-docker build -t sample-newman-docker .
-docker run sample-newman-docker
+docker build -t sample-postman-newman .
+docker run sample-postman-newman
 ```
 
