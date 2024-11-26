@@ -40,5 +40,6 @@ docker run tadeuaugusto/sample-postman-newman
 
 ### 3. A Github Actions pipeline is configured with htmlextra reports
 
-![image](https://github.com/user-attachments/assets/34180468-f8cf-4060-892e-8a0f473bc6d2)
+![image](https://github.com/user-attachments/assets/6a7d4a5d-dc5a-4ff5-9552-bb6e15bba52c)
+
 
