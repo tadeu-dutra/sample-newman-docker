@@ -37,3 +37,8 @@ docker run sample-postman-newman
 docker build -t tadeuaugusto/sample-postman-newman .
 docker run tadeuaugusto/sample-postman-newman
 ```
+
+### 3. A Github Actions pipeline is configured with htmlextra reports
+
+![image](https://github.com/user-attachments/assets/34180468-f8cf-4060-892e-8a0f473bc6d2)
+
