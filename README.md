@@ -16,12 +16,15 @@ This project is intended to showcase how to run Postman collection scripts on Do
 To run the Postman collection using Docker and Newman, ensure you have Docker installed on your system. Feel free to choose between the two options below in order to run the tests:
 
 
-### 1. Build and run the Docker container locally (GitHub)
+### Clone the repository
 
 ```bash
 git clone https://github.com/tadeu-dutra/sample-postman-newman
 cd sample-postman-newman
 ```
+
+
+### 1. Build and run the Docker container locally (GitHub)
 
 ```bash
 docker build -t sample-postman-newman .
