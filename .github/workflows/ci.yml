@@ -24,7 +24,7 @@ jobs:
 
       - name: Install newman-reporter-htmlextra
         run: |
-          sudo npm install -g newman-htmlextra
+          sudo npm install -g newman-reporter-htmlextra
 
       - name: Execute the collection
         run: newman run ./sample_collection.json --delay-request 2 --reporters cli, -r htmlextra --reporter-htmlextra-export ./result/Report.html
